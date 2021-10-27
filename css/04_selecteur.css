@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(214, 66, 66);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgb(138, 138, 138);
+    color: floralwhite;
+}
+p{
+    color: floralwhite;
+}
+section p:first-child{
+    color: goldenrod;
+}
+section p:last-child{
+    color: rgb(17, 87, 153);
+}
+section p:nth-child(even){ /* nombre pair*/
+    color: rgb(116, 116, 116);
+}
+section p:nth-child(odd){ /*nombre impair*/
+    color: rgb(255, 255, 255);
+}
+section p:nth-child(3), section p:nth-child(10){
+    color: ;
+}
+.zone1{
+    color: rgb(0, 0, 0);
+}
+.zone2{
+    color: rgb(170, 170, 170);
+}
+.zone3{
+    background-color: rgb(138, 138, 138);
+    border-radius: 20px;
+
+}
+.lime{
+    color: rgb(64, 102, 124);
+    border-radius: 5px;
+
+}
+.zone3:before{
+    content:  " 4KT "; /*content est obligatoire*/
+    background-color: cadetblue;
+
+}
+.zone3::after{
+    content: "rajouté apres"; 
+    background-color: darkcyan;
+}
+li:nth-of-type(2){
+    background-color: rgba(0, 139, 139, 0);
+    color:rgb(0, 0, 0);
+}
+.zone4 span{
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 87, 110);
+}

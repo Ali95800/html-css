@@ -1,0 +1,49 @@
+*{/*l'etoile ou l'astérique signifie qu'on sélectionne tout le document c'est un selecteur universal*/
+    text-align: right;
+}
+
+body{
+    background-color: rgb(183, 0, 255);
+}
+
+header{
+    background-color: rgb(115, 255, 0);
+    color: rgb(255, 0, 0);
+    height: 100px;/* heignt = hauteur*/
+    
+}
+
+nav{
+    background-color: rgb(115, 255, 0);
+    height: 60px;
+}
+
+section{
+    background-color: rgb(115, 255, 0);
+    height: 550px;
+}
+
+article{
+    background-color: rgb(115, 255, 0);
+    height: 66px;
+}
+
+footer{
+    background-color: rgb(115, 255, 0);
+    height: 66px;
+}
+
+nav, footer{
+    color: rgb(0, 0, 0);
+}
+
+.jaune{/*j'appelle la class avec un point*/
+    background-color: rgb(255, 0, 0);
+}
+
+#noir{/*j'appelle l'id avc #*/
+    background-color: rgb(0, 17, 255);
+    color: rgb(251, 255, 0);
+    text-align: justify;
+    font-size: 25px;/* taille de la police*/
+}

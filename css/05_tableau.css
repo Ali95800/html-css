@@ -1,0 +1,42 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    width: 18%; /* la taille de l'ecran*/
+    margin: auto;/*gestion automatique des marges pour que le tableau soir centré*/
+    background-color: rgb(31, 31, 31);
+}
+table{
+    border: 4px solid rgb(0, 26, 255);/*epaisseur, trait normal et couleur*/
+    border-collapse: collapse;/*pour coller les border des cellules*/
+    width: 100%;/*prend tout la largeur du body*/
+}
+caption{
+    font-size: 30px;
+    color: crimson;
+    padding: 20px;
+    background-color: ghostwhite;
+}
+thead, tfoot{
+    background-color: rgb(31, 31, 31);
+    border: 2px solid rgb(0, 26, 255);
+}
+
+tbody{
+    border: 4px solid rgb(0, 26, 255);
+}
+th{
+    border: 2px dotted rgb(183, 0, 255);
+    padding: 4px;
+    background-color: darkmagenta;
+}
+td{
+    font-size: 120%;
+    border: 1px solid rgb(208, 255, 0);
+    text-align: center;
+}
+tr td:first-child{/*1er td pour aligner le texte à gauche de chaque rangée*/
+    text-align: left;
+    background-color: rgb(31, 31, 31);
+}
