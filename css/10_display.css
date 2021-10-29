@@ -1,0 +1,12 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid lavender;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.block{
+    display: block;/*on modifie l'affichage de la balise pour qu'elle devienne de type inline*/
+}
+.inline{
+    display: inline;/*on modifie l'affichage de la balise pour qu'elle devienne de type inline*/
+}
